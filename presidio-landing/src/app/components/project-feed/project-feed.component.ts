@@ -1,7 +1,7 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
-  selector: 'presidio-project-feed',
+  selector: 'presidio-projects',
   templateUrl: './project-feed.component.html',
   styles: [
   ],

@@ -1,7 +1,7 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
-  selector: 'presidio-join-team',
+  selector: 'presidio-join',
   templateUrl: './join-team.component.html',
   styles: [
   ],

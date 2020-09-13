@@ -1,7 +1,7 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
-  selector: 'app-banner',
+  selector: 'presidio-banner',
   templateUrl: './banner.component.html',
   styles: [
   ],
