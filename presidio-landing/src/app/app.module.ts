@@ -21,6 +21,10 @@ import { HeroComponent } from './components/hero/hero.component';
 import { ProjectFeedComponent } from './components/project-feed/project-feed.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { JoinTeamComponent } from './components/join-team/join-team.component';
+import { SharedModule } from './shared/shared.module';
+
+
+
 
 @NgModule({
   declarations: [
@@ -46,7 +50,8 @@ import { JoinTeamComponent } from './components/join-team/join-team.component';
     RouterModule,
     SolutionsModule,
     ServicesModule,
-    BlogModule
+    BlogModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
